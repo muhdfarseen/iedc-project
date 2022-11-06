@@ -1,0 +1,405 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+nav{
+    width: 100vw;
+    padding-left: 1em !important;
+    padding-right: 0em !important;
+    font-family: 'Exo';
+    
+}
+
+.nav-link{
+    color: #003C3C !important;
+    margin-left: 30px;
+    
+}
+
+.navbar-brand{
+    margin-left: 30px;
+}
+.nav-link:hover {
+    
+   color: #01DC82 !important ;
+}
+
+.nav-link.active{
+    font-weight: bold ;
+    
+}
+
+.btn{
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #01DC82;
+}
+
+.navbar-toggler{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* nav bar over */
+
+.home1sec{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.navsha{
+    height: 100px;
+    background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0) 100%);
+}
+
+/* nav bar shadow over */
+
+.heding{
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.twobtn{
+    width: 150px;
+    height: 40px;
+    background-color: #01DC82;
+}
+
+.make{
+    color: #01DC82;
+}
+
+
+.twobtn:hover{
+    box-shadow: 0px 9px 19px rgba(0, 0, 0, 0.15);
+}
+.one{
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 109.9%;
+    color: #003C3C;
+}
+.two{
+   
+    font-size: 20px;
+}
+.pics{
+    z-index: -10;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    overflow: hidden;
+    
+}
+
+.left{
+
+    height: 45vh;
+    
+}
+.right{
+    height: 45vh;
+    float: right;
+}
+
+.college{
+    margin-bottom: 100px;
+}
+
+/* section 2 */
+
+.section2{
+    padding-left:100px;
+    padding-right: 100px;
+    color: #003C3C;
+    font-family:'poppins';
+}
+
+.listrf{
+    margin-top: 40px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proud{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'exo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 137.9%;
+}
+
+b{
+    color: #01DC82;
+}
+
+i{
+    color: #003c3c79;
+    font-size: 16px;
+}
+
+/* section3 */
+
+.section3{
+    color: #003C3C;
+    font-family: 'poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+}
+
+#ico{
+    margin: 20px;
+}
+
+/* section 4 */
+
+.section4{
+    color: #003C3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+#container{
+    padding: 20px;
+    margin: 30px;
+    margin-left: 0;
+}
+#hd{
+    font-family: 'exo';
+    font-weight: 900;
+}
+
+.para{
+    margin-top: 30px;
+    font-family: 'poppins';
+    font-size: 20px;
+}
+
+.group{
+    border-radius: 20px;
+}
+
+/* footer */
+
+footer{
+    background-color: #003C3C;
+    color: white;
+    font-family: 'poppins';
+    font-size: 20;
+    width: 100vw;
+    height: 350px;
+
+    padding: 70px;
+}
+
+.iconcontainer{
+    float: right;
+    
+}
+
+#icom{
+    width: 25px;
+    height: auto;
+    margin: 10px;
+}
+
+@media (max-width:1000px){
+
+    .navsha{
+        height: 30px;
+        background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0) 100%);
+        
+    }
+
+    .heding{
+        padding: 30px;
+        z-index: 10;
+        width: unset;
+        margin: auto;
+    }
+
+    .one{
+        font-family: 'Exo';
+        font-weight: 1000;
+        font-size: 30px;
+        line-height: 109.9%;
+        margin-top: 40px;
+    }
+    .two{
+       
+        margin-top: 10px;
+        font-size: 12px;
+        width: 80%;
+        margin: auto;
+        
+    }
+
+    .pics{
+        
+        width: 100vw;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        overflow: hidden;
+        
+    }
+    
+    .left{
+        height: 235px;
+        
+    }
+    .right{
+        height: 235px;
+        float: right;
+    }
+    .college{
+        visibility: collapse;
+        margin-top: 30px;
+        width: 0;
+    }
+
+    .proud{
+        font-size: 30px;
+    }
+
+    .section2{
+        padding: 40px;
+        color: #003C3C;
+        font-family:'poppins';
+    }
+    
+    .proud{
+        margin-top: unset;
+        text-align: left;
+        font-family: 'exo';
+        font-style: unset;
+        font-weight: 700;
+        font-size: 24px;
+        
+    }
+
+    .listrf{
+        margin-top: 16px;
+        display: unset;
+        font-size: 16px;
+    }
+
+    i{
+        color: #003c3c79;
+        font-size: 12px;
+    }
+
+    .section3{
+        color: #003C3C;
+        font-family: 'poppins';
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .part1{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px;
+    }
+    
+    #ico{
+        
+        margin: 20px;
+        margin-top:0 ;
+    }
+
+    .section4{
+        color: #003C3C;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        margin: unset;
+        padding: 40px;
+    }
+    
+    #container{
+        padding: 0;
+        margin: 0;
+        margin-left: 0;
+    }
+    #hd{
+        font-family: 'exo';
+        font-weight: 900;
+        font-size: 24px;
+    }
+    
+    .para{
+        margin-top: unset;
+        font-family: 'poppins';
+        font-size: 13px;
+    }
+    .group{
+        width: 80vw;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    footer{
+        background-color: #003C3C;
+        color: white;
+        font-family: 'poppins';
+        font-size: 8px;
+        width: 100vw;
+        height: 200px;
+    
+        padding: 50px;
+    }
+    
+    .iconcontainer{
+        float: right;
+        
+    }
+    
+    #icom{
+        width: 10px;
+        height: auto;
+        margin: 10px;
+    }
+
+    #fotrlogo{
+        width: 80px;
+        height: auto;
+    }
+
+   
+}
+

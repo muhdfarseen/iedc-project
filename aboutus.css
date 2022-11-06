@@ -1,0 +1,416 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+
+
+nav{
+    width: 100vw;
+    padding-left: 1em !important;
+    padding-right: 0em !important;
+    font-family: 'Exo';
+    
+}
+
+.nav-link{
+    color: #003C3C !important;
+    margin-left: 30px;
+    
+}
+
+.navbar-brand{
+    margin-left: 30px;
+}
+.nav-link:hover {
+    
+   color: #01DC82 !important ;
+}
+
+.nav-link.active{
+    font-weight: bold ;
+    
+}
+
+.btn{
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #01DC82;
+}
+
+.navbar-toggler{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.navsha{
+    height: 100px;
+    background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0) 100%);
+}
+
+/* nav over */
+
+/* footer */
+
+footer{
+    background-color: #003C3C;
+    color: white;
+    font-family: 'poppins';
+    font-size: 20;
+    width: 100vw;
+    height: 350px;
+
+    padding: 70px;
+}
+
+.iconcontainer{
+    float: right;
+    
+}
+
+#icom{
+    width: 25px;
+    height: auto;
+    margin: 10px;
+}
+
+.formsection{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+/* footer over */
+
+.container_about{
+    padding-left: 50px;
+    padding-right: 50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutpic{
+    
+    max-width: 530px;
+}
+
+
+
+.head{
+    font-family: 'exo';
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.abt{
+    
+    font-family: 'poppins';
+  
+}
+
+.sectionone{
+    padding-left: 80px;
+    width: 50%;
+}
+
+.teamholder{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Teamdesc{
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+.teampic{
+    max-width: 750px;
+    
+}
+
+.teampiccontainer{
+    display:flex;
+    flex-wrap: wrap;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+    font-family: 'poppins';
+    
+}
+
+
+
+.boxcontainer{
+    display: flex;
+    width:350px;
+    border: 2px solid #01DC82;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.053);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+.boxtesti{
+    display: flex;
+    margin-bottom: 30px;
+    border: 2px solid #01DC82;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.053);
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+.boxpictesti{
+    width: 110px;
+    height: 110px;
+    border-radius: 10px;
+}
+
+.testip{
+    margin-left: 20px;
+}
+
+
+.new{
+   
+    border: 2px solid #01DC82;
+
+}
+
+
+.boxpic{
+    width: 110px;
+    height: 110px;
+    /*border: 2px solid #01DC82; */
+    border-radius: 10px;
+    margin-right: 20px;
+    overflow: hidden;
+
+}
+
+.rok {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+    vertical-align: middle;
+}
+
+.first{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.he{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.tabled{
+
+    margin: 50px;
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+table {
+    font-family: 'poppins';
+    width: 70vw;
+    
+}
+  
+td{
+    border: 2px solid #003C3C;
+    text-align: left;
+    padding: 8px;
+    
+}
+
+th{
+    border: 2px solid #003C3C;
+    background-color: #01dc8138;
+    text-align: center;
+    padding: 8px;
+    
+}
+  
+tr:nth-child(even) {
+    /* background-color: #01dc813f; */
+}
+
+.partner{
+    width: 40%;
+    height: auto;
+    margin: 20px;
+}
+
+.recount{
+    text-align: center;
+}
+
+.newbox{
+    height: 290px;
+}
+
+.zet{
+    width: 50%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+@media (max-width:1000px){
+
+    .navsha{
+        height: 30px;
+        background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0) 100%);
+        
+    }
+
+    
+    footer{
+        background-color: #003C3C;
+        color: white;
+        font-family: 'poppins';
+        font-size: 8px;
+        width: 100vw;
+        height: 200px;
+        padding: 50px;
+    }
+    
+    .iconcontainer{
+        float: right;
+        
+    }
+    
+    #icom{
+        width: 10px;
+        height: auto;
+        margin: 10px;
+    }
+
+    #fotrlogo{
+        width: 80px;
+        height: auto;
+    }
+
+    .container_about{
+        padding-left: 50px;
+        padding-right: 50px ;
+        display: block;
+
+    }
+    
+    .aboutpic{
+        max-width: 80vw;
+    }
+
+    .sectionone{
+        padding-left: unset;
+        width: unset;
+        text-align: center;
+    }
+
+    .teampic{
+        max-width: 70vw;
+    }
+
+    .teamholder{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Teamdesc{
+        padding: 20px;
+        padding-bottom: 0;
+        font-size: smaller;
+        
+    }
+
+    .teamp{
+        display: flex;
+        justify-content: center;
+    }
+
+    .abt{
+    
+        font-family: 'poppins';
+        font-size: small;
+    }
+
+    .head{
+        font-family: 'exo';
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .partner{
+        width: 80%;
+        height: auto;
+        margin: 20px;
+    }
+
+    .zet{
+        width: 70%;
+        margin: auto;
+    }
+
+    .boxtesti{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 10px;
+
+    }
+
+    .testip{
+        margin-top: 10px;
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .picdiv{
+        
+        width: 100%;
+    }
+
+
+
+    
+
+
+
+
+}
